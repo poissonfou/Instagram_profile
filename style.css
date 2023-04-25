@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #000000;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    margin-left: 23rem;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.profile img{
+    border-radius: 10rem;
+    width: 10rem;
+    height: 10rem;
+}
+
+.profile-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 6rem;
+}
+
+.profile-info-top{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+    
+}
+
+.profile-info-top button{
+    width: 7rem;
+    height: 2.2rem;
+    border-radius: 0.5rem;
+    border-style: none;
+    font-weight: bold;
+    margin-left: 1rem;
+    margin-top: -0.5rem;
+}
+
+.profile-info-top img{
+    width: 2rem;
+    height: 1.8rem;
+    margin-left: 0.5rem;
+    margin-top: -0.4rem;
+}
+
+.profile-info-top p{
+    font-size: 1.2rem;
+}
+
+.profile-info-bottom{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5rem;
+    margin-left: -0.7rem;
+}
+
+.profile-info-bottom p {
+    margin-left: 1.2rem;
+}
+
+.user-name-pronouns{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.user-name-pronouns p{
+    margin-left: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.user-name-pronouns p:first-child{
+    font-weight: bold;
+}
+
+.tabs{
+    display: flex;
+    flex-direction: row;
+    border-top-style: solid;
+    border-top-color:  rgb(218, 218, 210);
+    justify-content: center;
+    border-top-width: 0.05rem;
+    width: 60.5rem;
+    margin-left: 19rem;
+}
+
+
+.grid-container-post{
+    display: grid;
+    grid-template-columns: 20rem 20rem 20rem;
+    column-gap: 0.25rem;
+    row-gap: 0.25rem;
+    margin-left: 19rem;
+}
+
+.grid-container-post img{
+    width: 20rem;
+    height: 20rem;
+}
+
+
+
+/*FOOTER*/
+footer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 18rem;
+    margin-top: 1.5rem;
+    color: rgb(218, 218, 210);
+}
+
+footer p{
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+}
