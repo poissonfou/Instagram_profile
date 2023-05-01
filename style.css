@@ -7,20 +7,60 @@ body{
     background-color: #000000;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+/*NAV BAR*/
+
+nav{
+    width: 15.4rem;
+    border-right-color: rgb(145, 144, 144);
+    border-right-style: solid;
+    border-right-width: 0.5px;
+    height: 100vh;
+    position: fixed;
+}
+
+nav div{
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+
+nav div p{
+    margin-bottom: 2.2rem;
+}
+
+.instagram{
+    width: 7rem;
+    margin-top: 3rem;
+    margin-left: 2.5rem
+}
+
+/*HEADER/TOP PART*/
+
+header{
+    width: 55rem;
+    margin-left: 15rem;
+}
+
+main{
+    margin-left: 15rem;
 }
 
 .profile{
     display: flex;
     flex-direction: row;
-    margin-left: 23rem;
-    margin-top: 1.5rem;
+    margin-left: 10rem;
+    margin-top: 2rem;
     margin-bottom: 3rem;
+    width: 40rem;
 }
 
 .profile img{
     border-radius: 10rem;
-    width: 10rem;
-    height: 10rem;
+    width: 9rem;
+    height: 9rem;
 }
 
 .profile-info{
@@ -83,29 +123,53 @@ body{
     font-weight: bold;
 }
 
+.user-name-pronouns p:nth-child(2){
+    color: rgb(145, 144, 144);
+}
+
 .tabs{
-    display: flex;
-    flex-direction: row;
     border-top-style: solid;
-    border-top-color:  rgb(218, 218, 210);
+    border-top-color:  rgb(145, 144, 144);
     justify-content: center;
     border-top-width: 0.05rem;
     width: 60.5rem;
-    margin-left: 19rem;
+    height: 3rem;
+    margin-left: 5rem;
 }
 
+.tabs p{
+    margin-left: 5rem;
+    font-size: 0.8rem;
+    padding-top: 1rem;
+}
+
+.tabs div{
+    display: flex;
+    flex-direction: row;
+    margin-left: 14rem;
+}
+
+.bookmark{
+    width: rem;
+    height: 0.8rem;
+}
+/*POSTS*/
 
 .grid-container-post{
     display: grid;
     grid-template-columns: 20rem 20rem 20rem;
     column-gap: 0.25rem;
     row-gap: 0.25rem;
-    margin-left: 19rem;
+    margin-left: 5rem;
 }
 
 .grid-container-post img{
     width: 20rem;
     height: 20rem;
+}
+
+.grid-container-post div:hover{
+    background-color: rgba(145, 144, 144, 0.5);
 }
 
 
@@ -116,6 +180,7 @@ footer{
     flex-direction: row;
     margin-left: 18rem;
     margin-top: 1.5rem;
+    margin-bottom: 2rem;
     color: rgb(218, 218, 210);
 }
 
