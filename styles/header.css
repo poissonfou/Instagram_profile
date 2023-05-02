@@ -100,7 +100,7 @@ main{
     font-weight: bold;
 }
 
-.tabs-inner-cont div:first-child{
+.publications{
     border-top-style: solid;
     border-top-width: 0.1rem;
     color: white;
@@ -118,9 +118,18 @@ main{
     margin-right: 4rem; 
 }
 
+.tabs-inner-cont div:hover{
+    cursor: pointer;
+}
+
 .tabs-inner-cont p{
     margin-top: 1rem;
     font-size: 0.75rem;
+}
+
+a:visited, a:link{
+    text-decoration: none;
+    color: rgb(145, 144, 144);
 }
 
 .grid{
